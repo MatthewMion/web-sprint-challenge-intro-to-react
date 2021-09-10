@@ -13,9 +13,10 @@ align-items: center;
 div{
     display:flex;
     width: 75%;
-    padding:2%;
+    padding:2% 5%;
     margin:2%;
     border:3px solid ${theme.primaryColor};
+    border-radius:15% 25% 15% 25%;
     align-items:center;
     justify-content: space-between
 }
@@ -23,7 +24,7 @@ h2{
     color:${theme.secondaryColor}
 }
 span{
-    color:${theme.primaryColor};
+    color:${theme.secondaryColor};
     background-color:${theme.tertiaryColor};
     font-weight: bold;
     padding:1%;
